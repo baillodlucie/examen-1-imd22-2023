@@ -54,16 +54,8 @@ nav {
   font-weight: 300;
   line-height: 22px; /* 122.222% */
   text-transform: uppercase;
-}
-
-h2 {
+  padding: 20px;
   text-align: center;
-  font-family: Noto Serif;
-  font-size: 50px;
-  font-weight: 300;
-  line-height: 50px; /* 100% */
-  text-transform: uppercase;
-  font-family: "Noto Serif", serif;
 }
 
 h1 {
@@ -84,6 +76,17 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 50px; /* 100% */
+  text-transform: uppercase;
+  font-family: "Noto Serif", serif;
+  padding: 40px 20px 20px 20px;
+}
+
 .header-p {
   color: #fff;
   text-align: center;
@@ -92,6 +95,17 @@ h1 {
   font-weight: 300;
   line-height: 24px; /* 120% */
   text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px; /* 120% */
+  text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .single-event-date {
@@ -102,15 +116,6 @@ h1 {
   line-height: 15px; /* 100% */
 }
 
-h3 {
-  text-align: center;
-  font-family: Nunito Sans;
-  font-size: 30px;
-  font-weight: 800;
-  line-height: 36px; /* 120% */
-  text-transform: uppercase;
-}
-
 .origin {
   text-align: center;
   font-family: Noto Serif;
@@ -119,10 +124,17 @@ h3 {
   line-height: 15px; /* 100% */
 }
 
-.programmation-txt {
+.events,
+.origins,
+.single-event-date {
+  padding: 20px;
+}
+
+.events-txt {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   border-left: 1px solid #000;
+  padding-bottom: 20px;
 }
 
 .button-programme {
@@ -135,6 +147,8 @@ h3 {
   line-height: 15px; /* 100% */
   text-transform: uppercase;
   background-color: #000;
+  margin: 60px;
+  padding: 20px;
 }
 
 .citation {
@@ -147,6 +161,7 @@ h3 {
   letter-spacing: -1.5px;
   text-transform: uppercase;
   background-color: #98fb00;
+  padding: 20px;
 }
 
 .citation-author {
@@ -157,6 +172,7 @@ h3 {
   font-weight: 300;
   line-height: 15px; /* 100% */
   text-transform: uppercase;
+  padding-top: 20px;
 }
 
 .news {
@@ -180,6 +196,7 @@ h3 {
 .articles-text {
   padding: 20px;
 }
+
 em {
   font-family: Nunito Sans;
   font-size: 15px;
@@ -221,7 +238,7 @@ h4 {
 }
 
 main {
-  padding-bottom: 20px;
+  padding: 20px 0px 20px 0px;
 }
 
 footer {
