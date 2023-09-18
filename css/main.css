@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --text-color: #000;
 }
 
 /* ====================================
@@ -11,8 +12,9 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
+  max-width: 428px;
 }
 
 html {
@@ -34,4 +36,77 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+header {
+  background-color: #d7a1fd;
+}
+
+nav {
+  background-color: #000;
+}
+
+h2 {
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 50px; /* 100% */
+  text-transform: uppercase;
+  font-family: "Noto Serif", serif;
+}
+
+h1 {
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px; /* 100% */
+  text-transform: uppercase;
+}
+
+.header-p {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+}
+
+.single-event-date {
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 15px; /* 100% */
+}
+
+h3 {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px; /* 120% */
+  text-transform: uppercase;
+}
+
+.origin {
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 15px; /* 100% */
+}
+
+.button-programme {
+  color: #d7a1fd;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 15px; /* 100% */
+  text-transform: uppercase;
+  background-color: #000;
 }
