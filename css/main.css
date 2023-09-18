@@ -36,9 +36,10 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
-  width: 388px;
+  max-width: 388px;
   height: 259px;
   flex-shrink: 0;
+  border-bottom: 7px solid #d7a1fd;
 }
 
 header {
@@ -47,6 +48,12 @@ header {
 
 nav {
   background-color: #000;
+  color: #fff;
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px; /* 122.222% */
+  text-transform: uppercase;
 }
 
 h2 {
@@ -65,6 +72,7 @@ h1 {
   font-weight: 800;
   line-height: 50px; /* 100% */
   text-transform: uppercase;
+  padding: 20px;
 }
 
 .h1-style {
@@ -111,6 +119,12 @@ h3 {
   line-height: 15px; /* 100% */
 }
 
+.programmation-txt {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
 .button-programme {
   color: #d7a1fd;
   text-align: center;
@@ -147,6 +161,7 @@ h3 {
 
 .news {
   background: #f4ede8;
+  padding-bottom: 40px;
 }
 
 .news-articles {
@@ -156,8 +171,15 @@ h3 {
   font-style: normal;
   font-weight: 300;
   line-height: 22px;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 388px;
+  margin: 20px;
 }
 
+.articles-text {
+  padding: 20px;
+}
 em {
   font-family: Nunito Sans;
   font-size: 15px;
@@ -176,9 +198,15 @@ h4 {
   line-height: 50px; /* 100% */
   letter-spacing: -2.5px;
   text-transform: uppercase;
+  padding: 20px;
+  background-color: #d7a1fd;
 }
 
-li {
+.opportunities {
+  background-color: #fff;
+}
+
+.opportunities-title {
   background-color: #98fb00;
   font-family: Nunito Sans;
   font-size: 20px;
@@ -188,6 +216,12 @@ li {
   letter-spacing: -1px;
   text-transform: uppercase;
   list-style-type: none;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+main {
+  padding-bottom: 20px;
 }
 
 footer {
@@ -202,6 +236,7 @@ footer {
 
 .footer-title {
   color: #313131;
+  background-color: #000;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 50px;
@@ -209,6 +244,8 @@ footer {
   font-weight: 800;
   line-height: 50px; /* 100% */
   text-transform: uppercase;
+  margin: 20px 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 h5 {
@@ -220,4 +257,9 @@ h5 {
   font-weight: 800;
   line-height: 22px; /* 122.222% */
   text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.mail-comm {
+  padding-bottom: 40px;
 }
