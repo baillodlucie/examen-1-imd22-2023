@@ -12,7 +12,6 @@
 
 * {
   margin: auto;
-  padding: 0;
 }
 
 html {
@@ -40,6 +39,9 @@ video {
   max-width: 388px;
   height: 259px;
   flex-shrink: 0;
+}
+
+.events-img {
   border-bottom: 7px solid #d7a1fd;
 }
 
@@ -67,7 +69,7 @@ h1 {
   font-weight: 800;
   line-height: 50px; /* 100% */
   text-transform: uppercase;
-  padding: 20px;
+  padding: 10px 25px 25px;
 }
 
 .h1-style {
@@ -150,8 +152,8 @@ h3 {
   line-height: 15px; /* 100% */
   text-transform: uppercase;
   background-color: #000;
-  margin: 70px;
   padding: 20px;
+  margin: 10px 97px 20px 97px;
 }
 
 .citation {
@@ -165,6 +167,7 @@ h3 {
   text-transform: uppercase;
   background-color: #98fb00;
   padding: 20px;
+  margin-top: 60px;
 }
 
 .citation-author {
