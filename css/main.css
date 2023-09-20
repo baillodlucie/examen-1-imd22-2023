@@ -2,20 +2,12 @@
 // css variables
 // ==================================== */
 
-:root {
-  --text-color: #000;
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
 
 * {
   margin: auto;
-}
-
-html {
-  font-size: 16px;
 }
 
 body {
@@ -55,9 +47,9 @@ nav {
   font-family: Noto Serif;
   font-size: 18px;
   font-weight: 300;
-  line-height: 22px; /* 122.222% */
+  line-height: 22px;
   text-transform: uppercase;
-  padding: 20px 42px;
+  padding: 20px 41px 20px 42px;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -67,7 +59,7 @@ h1 {
   font-family: Nunito Sans;
   font-size: 50px;
   font-weight: 800;
-  line-height: 50px; /* 100% */
+  line-height: 50px;
   text-transform: uppercase;
   padding: 20px 20px 10px;
 }
@@ -86,7 +78,7 @@ h2 {
   font-family: Noto Serif;
   font-size: 50px;
   font-weight: 300;
-  line-height: 50px; /* 100% */
+  line-height: 50px;
   text-transform: uppercase;
   font-family: "Noto Serif", serif;
   padding: 60px 20px 10px 20px;
@@ -98,7 +90,7 @@ h2 {
   font-family: Noto Serif;
   font-size: 20px;
   font-weight: 300;
-  line-height: 24px; /* 120% */
+  line-height: 24px;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
@@ -108,7 +100,7 @@ h3 {
   font-family: Nunito Sans;
   font-size: 30px;
   font-weight: 800;
-  line-height: 36px; /* 120% */
+  line-height: 36px;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
@@ -122,7 +114,7 @@ h3 {
   font-family: Noto Serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 15px; /* 100% */
+  line-height: 15px;
   padding: 20px 20px 20px 30px;
 }
 
@@ -131,7 +123,7 @@ h3 {
   font-family: Noto Serif;
   font-size: 15px;
   font-weight: 300;
-  line-height: 15px; /* 100% */
+  line-height: 15px;
 
   padding-bottom: 5px;
 }
@@ -150,7 +142,7 @@ h3 {
   font-size: 15px;
   font-style: italic;
   font-weight: 800;
-  line-height: 15px; /* 100% */
+  line-height: 15px;
   text-transform: uppercase;
   background-color: #000;
   padding: 20px;
@@ -163,7 +155,7 @@ h3 {
   font-size: 30px;
   font-style: italic;
   font-weight: 800;
-  line-height: 28px; /* 93.333% */
+  line-height: 28px;
   letter-spacing: -1.5px;
   text-transform: uppercase;
   background-color: #98fb00;
@@ -177,7 +169,7 @@ h3 {
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
-  line-height: 15px; /* 100% */
+  line-height: 15px;
   text-transform: uppercase;
   padding-top: 20px;
 }
@@ -214,7 +206,7 @@ em {
   font-size: 15px;
   font-style: italic;
   font-weight: 800;
-  line-height: 22px; /* 146.667% */
+  line-height: 22px;
   text-transform: uppercase;
 }
 
@@ -224,7 +216,7 @@ h4 {
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
-  line-height: 50px; /* 100% */
+  line-height: 50px;
   letter-spacing: -2.5px;
   text-transform: uppercase;
   padding: 20px;
@@ -241,7 +233,7 @@ h4 {
   font-size: 20px;
   font-style: italic;
   font-weight: 800;
-  line-height: 24px; /* 120% */
+  line-height: 24px;
   letter-spacing: -1px;
   text-transform: uppercase;
   list-style-type: none;
@@ -260,7 +252,7 @@ footer {
   font-family: Noto Serif;
   font-size: 18px;
   font-weight: 300;
-  line-height: 22px; /* 122.222% */
+  line-height: 22px;
 }
 
 .footer-title {
@@ -271,9 +263,9 @@ footer {
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
-  line-height: 50px; /* 100% */
+  line-height: 50px;
   text-transform: uppercase;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 10px 0px 10px;
   padding: 20px 20px 0px 20px;
 }
 
@@ -284,7 +276,7 @@ h5 {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 22px; /* 122.222% */
+  line-height: 22px;
   text-transform: uppercase;
   padding-top: 20px;
 }
